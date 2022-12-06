@@ -33,6 +33,7 @@ jobs:
       - run: npm i --force
       - run: CI=false npm run build
 
+
       - name: rsync deployments
         uses: burnett01/rsync-deployments@5.1
         with:
